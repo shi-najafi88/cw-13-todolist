@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO-page</title>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <script src="./assets/js/script.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header id="week">
+        <div data-days="sat">
+          <label class="week_Day">شنبه</label>
+          <div class="numberWeek"></div>
+        </div>
+        <div data-days="sun">
+          <label class="week_Day">یکشنبه</label>
+          <div class="numberWeek"></div>
+        </div>
+        <div data-days="mon">
+          <label class="week_Day">دوشنبه</label>
+          <div class="numberWeek"></div>
+        </div>
+        <div data-days="tue">
+          <label class="week_Day">سه شنبه</label>
+          <div class="numberWeek"></div>
+        </div>
+        <div data-days="wed">
+          <label class="week_Day">چهارشنبه</label>
+          <div class="numberWeek"></div>
+        </div>
+        <div data-days="thu">
+          <label class="week_Day">پنج شنبه</label>
+          <div class="numberWeek"></div>
+        </div>
+        <div data-days="fri">
+          <label class="week_Day">جمعه</label>
+          <div class="numberWeek"></div>
+        </div>
+      </header>
+      <main>
+        <div id="welcome">
+          <i class="fa fa-trash-o"></i>
+          <div id="hello">سلام</div>
+        </div>
+
+        <div id="todoList_Container"> 
+          <div class="todolist_main">
+            <div class="todomain_right">
+              <div class="round-Checkbox">
+              <i class="fa fa-check" id="fa-check"></i>
+              </div>
+              <input type="text" class="input_Todo_Main">
+          </div>
+            
+          <div class="todomain_left">
+            <div class="timer_Main"></div>
+            <i class="fa fa-trash-o" id="fa-trash_todo"></i>
+            <i class="fa fa-edit" id="fa-edit"></i>
+          </div>
+          
+          </div>
+        </div>
+
+      </main>
+      <footer id="newInput">
+        <input type="text" class="todo_Footer" />
+        <div class="timer_Footer"></div>
+        <button id="addButton">افزودن</button>
+      </footer>
+    </div>
+  </body>
+</html>
