@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODO-page</title>
     <link href="./assets/css/style.css" rel="stylesheet" />
-    <script src="./assets/js/script.js"></script>
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
@@ -47,27 +47,25 @@
       <main>
         <div id="welcome">
           <i class="fa fa-trash-o"></i>
-          <div id="hello">سلام</div>
+          <div id="hello"></div>
         </div>
 
-        <div id="todoList_Container"> 
+        <div id="todoList_Container">
           <div class="todolist_main">
             <div class="todomain_right">
               <div class="round-Checkbox">
-              <i class="fa fa-check" id="fa-check"></i>
+                <i class="fa fa-check" id="fa-check"></i>
               </div>
-              <input type="text" class="input_Todo_Main">
-          </div>
-            
-          <div class="todomain_left">
-            <div class="timer_Main"></div>
-            <i class="fa fa-trash-o" id="fa-trash_todo"></i>
-            <i class="fa fa-edit" id="fa-edit"></i>
-          </div>
-          
+              <input type="text" class="input_Todo_Main" />
+            </div>
+
+            <div class="todomain_left">
+              <div class="timer_Main"></div>
+              <i class="fa fa-trash-o" id="fa-trash_todo"></i>
+              <i class="fa fa-edit" id="fa-edit"></i>
+            </div>
           </div>
         </div>
-
       </main>
       <footer id="newInput">
         <input type="text" class="todo_Footer" />
@@ -76,33 +74,39 @@
       </footer>
     </div>
 
-
-
-
     <div class="overlay login">
-
       <div class="log-in" id="text">
-      
-        <input type="text" placeholder="نام کاربری" dir="rtl" class="input-login">
-        <input type="text" placeholder="نام و نام خانوادگی" dir="rtl" class="input-login">
-        <input type="text" placeholder="شماره موبایل" dir="rtl" class="input-login">
+        <input
+          type="text"
+          placeholder="نام کاربری"
+          dir="rtl"
+          class="input-login userName"
+        />
+        <input
+          type="text"
+          placeholder="نام و نام خانوادگی"
+          dir="rtl"
+          class="input-login firstLastName"
+        />
+        <div id="valid">
+          <input
+            type="text"
+            placeholder="شماره موبایل"
+            dir="rtl"
+            class="input-login phone"
+          />
+          <label class="validation"></label>
+        </div>
         <button class="btn-login">ورود</button>
-  
       </div>
     </div>
 
-
-
-    <div class="overlay form">
-
+    <!-- <div class="overlay form">
       <div class="login-form" id="text">
-        <input type="text"  dir="rtl" class="form-login">
+        <input type="text" dir="rtl" class="form-login" />
         <button class="btn-login">ثبت</button>
-  
       </div>
-    </div>
-
-
-    
+    </div> -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
