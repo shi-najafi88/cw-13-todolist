@@ -142,6 +142,8 @@ footer {
   border-radius: 6px;
   outline: none;
   border: none;
+  direction: rtl;
+  padding-right: 1rem;
 }
 
 .timer_Footer {
